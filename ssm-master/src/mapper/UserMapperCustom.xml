@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.UserMapperCustom">
+
+	<!-- 商品查询的sql片段
+	建议是以单表为单位定义查询条件
+	建议将常用的查询条件都写出来
+	 -->
+
+	
+	<!-- 商品查询 
+	parameterType：输入 查询条件
+	-->
+
+	<select id="selectallUser" resultType="po.User">
+		SELECT * FROM user
+	</select>
+
+
+</mapper>
