@@ -1,7 +1,5 @@
 ## 一个案例带你快速入门SSM开发
 
-**写在前面的话:**关于SSM框架的工程搭建请点击这里前往我的博客[SSM整合工程的搭建](http://codingxiaxw.cn/2016/11/15/44-ssm%E7%9A%84%E6%95%B4%E5%90%88/)
-
 ## 开发环境
 IDEA Spring3.x+SpringMVC+Mybatis  
 没有用到maven管理工具。
